@@ -1,3 +1,4 @@
+const { animation } = require('tailwindcss/defaultTheme')
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
@@ -18,7 +19,11 @@ module.exports = {
         'brand-green': 'var(--clr-green)',
         'brand-light': 'var(--clr-light)',
         'brand-red': 'var(--clr-red)',
+        'brand-black': 'var(--clr-black)',
         'brand-background': 'var(--clr-background)'
+      },
+      animation: {
+        'pulse-slow': 'pulse 5s linear infinite'
       }
     }
   },
